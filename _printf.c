@@ -8,6 +8,7 @@ void print_buffer(char buffer[], int *buff_ind);
  * Description: this function will call the get_print() function that will
  * determine which printing function to call depending on the conversion
  * specifiers contained into fmt
+ * Return: Printed chars.
  * Authors: Youssef & Heidi
  */
 int _printf(const char *format, ...)
